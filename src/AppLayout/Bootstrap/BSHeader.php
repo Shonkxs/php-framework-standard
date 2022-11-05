@@ -22,6 +22,9 @@
     <!--    MainCSS-->
     <link href="../../../../WirPackenAusHardware/src/AppLayout/CSS/main.css" rel="stylesheet">
 
+    <!--    Hero Section CSS-->
+    <link href="../../../../WirPackenAusHardware/src/AppLayout/Components/CSS/hero-section.css" rel="stylesheet">
+
     <!--    Fonts-->
     <link href="../../../../WirPackenAusHardware/src/AppLayout/Fonts/fonts.css" rel="stylesheet">
 
