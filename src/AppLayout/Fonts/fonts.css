@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Exo';
+    src: url('../../../../WirPackenAusHardware/src/AppLayout/Fonts/Exo-VariableFont_wght.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Exo-Bold';
+    src: url('../../../../WirPackenAusHardware/src/AppLayout/Fonts/Exo-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Mako';
+    src: url('../../../../WirPackenAusHardware/src/AppLayout/Fonts/Mako-Regular.ttf') format('truetype');
+}

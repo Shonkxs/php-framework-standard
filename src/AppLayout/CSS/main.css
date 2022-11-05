@@ -1,0 +1,135 @@
+/*Fonts*/
+:root {
+    /*Colorscheme*/
+    --mainColor: #202c80;
+    --secondaryColor: #2899c7;
+    --mainColor2: #47b5ff;
+    --secondaryColor2: #dff6ff;
+    --gradiant: linear-gradient(120.78deg, #2899c7 11.35%, #202c80 89.59%);
+    --element-light-bg: #dff6ff;
+
+    /*Blackscheme*/
+    --black: #000b18;
+    --black-75: rgba(0, 11, 24, 0.75);
+    --black-50: rgba(0, 11, 24, 0.5);
+    --black-25: rgba(0, 11, 24, 0.25);
+    --black-10: rgba(0, 11, 24, 0.1);
+    --black-05: rgba(40, 11, 24, 0.05);
+
+    /*Fontfamily*/
+    --ff1: Exo, sans-serif;
+    --ff1-bold: Exo-Bold, sans-serif;
+    --ff2: Mako, sans-serif;
+
+    /*Fontsize*/
+    --fs1: 4.209em;
+    --fs2: 3.157em;
+    --fs3: 2.369em;
+    --fs4: 1.777em;
+    --fs5: 1.333em;
+    --fs6: 1em;
+    --fsp: 1em;
+    --small: 0.75em;
+    --xsmall: 0.563em;
+    --xxsmall: 0.422em;
+
+    /*Fontsize SMALL*/
+
+    /*Font Weight*/
+    --700: 700;
+    --600: 600;
+    --500: 500;
+    --400: 400;
+    --300: 300;
+    --200: 200;
+    --100: 100;
+
+    /*Maintaince*/
+    --error: #d5103b;
+    --white: #f2f6f8;
+
+    /*Shadows*/
+    --box-shadow: 0px 33px 101px rgba(0, 0, 0, 0.41),
+    0px 12.0455px 36.8667px rgba(0, 0, 0, 0.282892),
+    0px 5.84789px 17.8981px rgba(0, 0, 0, 0.228079),
+    0px 2.86674px 8.77397px rgba(0, 0, 0, 0.181921),
+    0px 1.13351px 3.46924px rgba(0, 0, 0, 0.127108);
+
+    /*Gradiant Text*/
+    --text-gadiant: -webkit-linear-gradient(
+            281.37deg,
+            var(--mainColor) -13.74%,
+            var(--secondaryColor) 93.99%
+    );
+}
+
+/*Backgrounds*/
+
+.background-gray {
+    background-color: var(--black-05);
+}
+
+.background-black {
+    background-color: var(--black);
+}
+
+/*Font Settings*/
+
+body {
+    font-family: var(--ff2);
+    color: var(--black);
+    background-color: var(--white);
+    font-size: 1em !important;
+}
+
+.gradient_txt {
+    background: var(--gradiant);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.devc-nav-active {
+    text-decoration: underline !important;
+    text-decoration-color: var(--secondaryColor) !important;
+}
+
+/*Verical Rule*/
+.vertical_rule {
+    border: 1px solid;
+    border-image: var(--gradiant) 1;
+    height: 20px;
+    width: 0;
+}
+
+.horizontal_rule {
+    border: 1px solid red;
+    height: 1px;
+    width: 128px;
+    margin-left: auto;
+    margin-right: auto;
+    border-image: var(--gradiant) 1;
+}
+
+/*Buttons*/
+.button_default {
+    user-select: none;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    gap: 10px;
+    border: none;
+    /* Gradiant */
+    background: var(--gradiant);
+    box-shadow: var(--box-shadow);
+    border-radius: 20px;
+    font-family: var(--ff2);
+    font-size: var(--fs4);
+}
+
+.button_default:hover {
+    background: var(--secondaryColor);
+}
+
+.button_default:active {
+    background-color: var(--mainColor) !important;
+}
